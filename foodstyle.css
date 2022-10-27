@@ -43,3 +43,31 @@
         left: -400%
     }
 }
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: space-around;
+    margin: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: space-around;
+    margin: auto;
+}
+
+#contact h1 {
+
+}
+
+#contact form {
+
+}
+
+#contact p {
+
+}
