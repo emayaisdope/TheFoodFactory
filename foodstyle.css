@@ -1,3 +1,4 @@
+
 html {
     background-color:#facd9d;
 }
@@ -91,4 +92,70 @@ button {
     color: #bc3c00;
     text-shadow: .5px .25px 1.5px #000000;
     background-color: #ffa647;
+}
+
+#banner {
+    overflow: hidden;
+}
+
+#banner figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#banner figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%
+    }
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: space-around;
+    margin: auto;
+}
+
+.tips img {
+    border-style: solid;
+    border-width: 5px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: space-around;
+    margin: auto;
 }
