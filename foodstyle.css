@@ -44,34 +44,20 @@
     }
 }
 
-#tips {
+.tips {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: space-around;
+    margin: auto;
 }
 
-#tips h1 {
-
-}
-
-#tips h2 {
-
-}
-
-#tips p {
-
-}
-
-#tips img {
-
-}
-
-#contact {
+.contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: space-around;
+    margin: auto;
 }
 
 #contact h1 {
