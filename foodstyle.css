@@ -47,6 +47,8 @@
 #tips {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
 }
 
 #tips h1 {
@@ -58,5 +60,28 @@
 }
 
 #tips p {
+
+}
+
+#tips img {
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+#contact h1 {
+
+}
+
+#contact form {
+
+}
+
+#contact p {
 
 }
