@@ -13,28 +13,154 @@
         <div class="topnav">
             <a class="active" href="#home">Home</a>
             <a href="#about">About Us</a>
-            <a href="#featured">Featured</a>
-            <a href="#breakfast">Breakfast</a>
-            <a href="#lunch">Lunch</a>
-            <a href="#dinner">Dinner</a>
+                    <button onclick="myFunction()" class="dropbtn">Recipes</button>
+                    <div id="myDropdown" class="drop-down-content">
+                        <a href="#featured">Featured</a>
+                        <a href="#breakfast">Breakfast</a>
+                        <a href="#lunch">Lunch</a>
+                        <a href="#dinner">Dinner</a>
+                    </div>
+            
             <a href="#tips">Tips And Tricks</a>
             <a href="#contact">Contact Us</a>
         </div>
+
+        <!--The banner with the moving photos for each section-->
         <img href="">
         <div id="about">
             <h1>About Us</h1>
-            <p></p>
+            <p>Welcome to the Food Factory where we shed light on the newest food trends shaping the food industry!
+            Our website covers flavorful and eye-catching recipes for breakfast through dinner and even contains
+            a fall-spirited section. 
+            <br><br>
+            Need help whipping up these recipes? Check out our secret cooking <a href="#tips">tips.</a>
+             .</p>
         </div>
     </header>
+
     <main>
-        <div id="featured"></div>
-        <div id="breakfast"></div>
-        <div id="lunch"></div>
-        <div id="dinner"></div>
-        <div id="tips"></div>
-        <div id="contact"></div>
-    </main>    
-    <footer></footer>
+        <div id="featured">
+            <h3> It's Spooky Season! See our top fall recipes</h3>
+            <div class="recipe">
+                <!--Pumpkin Pancakes-->
+                <img src="https://www.thespruceeats.com/thmb/tXvFqe-6SJycUrwXNChB9ZkgIi0=/2000x1500/smart/filters:no_upscale()/pumpkin-pancakes-5080135-08-027199c4e181459e8a6828d540fb2d63.jpg" 
+                alt="Pumpkin Pancakes">
+                <h5> <a href="https://www.somewhatsimple.com/pumpkin-pancakes/">Pumpkin Waffles</a> </h5>
+                <p></p>
+            </div>
+            <div class="recipe">
+                <!--Beef Pot Roast-->
+                <img src="https://makeyourmeals.com/wp-content/uploads/2018/06/featured-roast-beef-720x540.jpg" alt="Beef Pot Roast">
+                <h5> <a href="https://www.allrecipes.com/recipe/219173/simple-beef-pot-roast/">Beef Pot Roast</a></h5>
+                <p></p>
+            </div>
+            <div class="recipe">
+                <!--Butternut Squash-->
+                <img src="https://www.wellplated.com/wp-content/uploads/2017/11/Cinnamon-Roasted-Butternut-Squash-Easy-butternut-squash-recipe-600x809.jpg" 
+                alt="Butternut Squash">
+                <h5> <a href="https://www.wellplated.com/cinnamon-roasted-butternut-squash/">Butternut Squash</a> </h5>
+                <p></p>
+            </div>
+            <div class="recipe">
+                <!--Apple Cider-->
+                <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Hot-Apple-Cider_exps1109_BB133217C05_31_3bC_RMS.jpg" alt="Apple Cider">
+                <h5> <a href="https://www.foodnetwork.com/recipes/nancy-fuller/spiced-cider-2251070">Apple Cider</a></h5>
+                <p></p>
+            </div>
+        </div>
+
+        <div id="breakfast">
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+        </div>
+
+        <div id="lunch">
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+        </div>
+
+        <div id="dinner">
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a></h5>
+            </div>
+            <div class="recipe">
+                <!-- -->
+                <h5> <a href=""></a> </h5>
+            </div>
+        </div>
+
+        <div id="tips">
+            <h1>Tip of the Season: Fall Baking Fun!</h1>
+                <p>Fall is arguably the best time of the year for baking! From Peach Cobblers to Apple Cider, 
+                    let's see how we can spice up the season and have a gourd time!</p>
+              <h2>Spice Up that Plain Chicken</h2>
+                <p>We are in the cooking season where a simple meal can make or break a family bond. 
+                    So if you want to wow the table, try these few marinades from 
+                    <a href="https://www.eatthis.com/">Eat This, Not That!</a><br>The intrustions </p>  
+                </div> 
+
+        <div id="contact">
+            <h1>Contact Us!</h1>
+                <p>Have any tips you want us to share or just want to say hi? Feel free to contact us!</p>
+                <form>
+                    <input type="text" class="input-field" placeholder="Your Name"><br>
+                    <input type="email" class="input-field" placeholder="Your Email"><br>
+                    <input type="text" class="input-field" placeholder="Subject"><br>
+                    <textarea type="text" class="text-field" placeholder="Your Message"></textarea><br>
+                    <input type="submit" class="input-field" value="Send Message">
+                </form>
+        </div>
+    </main>
+
+    <footer>
+        <br>
+            <div class="share">
+                <a href="#">home</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+           </div>
+                <p>
+                    Date Created: October 19, 2022 &nbsp; &nbsp;            
+                    Date Updated: October 28, 2022
+                </p>
+    </footer>
 
 </body>
 </html>
