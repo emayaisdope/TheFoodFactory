@@ -43,3 +43,20 @@
         left: -400%
     }
 }
+
+#tips {
+    display: flex;
+    flex-direction: column;
+}
+
+#tips h1 {
+
+}
+
+#tips h2 {
+
+}
+
+#tips p {
+
+}
