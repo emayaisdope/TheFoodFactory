@@ -1,3 +1,97 @@
+html {
+    background-color:#facd9d;
+}
+ 
+ 
+h1 {
+   
+    font-family: Sacramento;
+    color: #EC5B13;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+    text-shadow: 2px 1px 2px #5b1d00;
+}
+figure {
+    display:inline-flex;
+    border: .75px inset #FF7E05;
+    border-radius: 3px;
+   
+   
+}
+ 
+a:hover {
+    opacity: .70;
+}
+ 
+ 
+.food-pic {
+    width: auto;
+    height: 10rem;
+    margin: .50rem;
+    display: inline-flex;
+       
+}
+ 
+#breakfast {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+    margin-top: -2.5rem;
+}
+ 
+#lunch {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 3rem;
+    margin-top: -5.5rem;
+}
+ 
+#dinner {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 3rem;
+    margin-top: -5.5rem;
+}
+ 
+figcaption {
+    height:10rem;
+    width:6.8rem;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #CB4101;
+ 
+}
+ 
+a[href*='category'] {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .9rem;
+ 
+}
+ 
+button {
+    border-radius: 3px;
+    border: 1px outset #CB4101;
+    height: 10.1rem;
+    width: 6.7rem;
+    display:inline-block;
+    margin-top: 8px;
+    margin-left: .50rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic;
+    font-size: 1rem;
+    color: #bc3c00;
+    text-shadow: .5px .25px 1.5px #000000;
+    background-color: #ffa647;
+}
 
 #banner {
     overflow: hidden;
