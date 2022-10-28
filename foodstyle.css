@@ -94,10 +94,13 @@ button {
     background-color: #ffa647;
 }
 
-#banner {
-    overflow: hidden;
-    position: relative;
 
+#banner {
+    width:100%;
+    height: auto;
+    overflow:hidden;
+    position:relative;
+    display: block;
 }
 
 #banner figure {
@@ -106,10 +109,12 @@ button {
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
+
 }
 #banner figure img {
     width: 20%;
     float: left;
+
 }
 
 @keyframes slider {
