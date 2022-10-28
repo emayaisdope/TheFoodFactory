@@ -1,5 +1,6 @@
+
 html {
-    background-color:#facd9d;
+    background-image: linear-gradient(#facd9d , #ff9e36)
 }
  
  
@@ -95,6 +96,7 @@ button {
 
 #banner {
     overflow: hidden;
+    position: relative;
 }
 
 #banner figure {
@@ -157,4 +159,15 @@ button {
     justify-items: center;
     align-items: space-around;
     margin: auto;
+}
+
+
+.food-pic2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: space-around;
+    margin: auto;
+    max-width: 30rem;
+    max-height: 30rem;
 }
