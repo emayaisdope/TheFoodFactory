@@ -78,7 +78,7 @@ a[href*='category'] {
  
 }
  
-button {
+.next {
     border-radius: 3px;
     border: 1px outset #CB4101;
     height: 10.1rem;
@@ -91,7 +91,7 @@ button {
     font-size: 1rem;
     color: #bc3c00;
     text-shadow: .5px .25px 1.5px #000000;
-    background-color: #ffa647;
+    background-color: #ff8e16;
 }
 
 #banner {
