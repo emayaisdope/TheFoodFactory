@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(#facd9d , #ff9e36)
+    background-image: linear-gradient(#facd9d , #ffa024, #ec5b13,#cb4101, #ae2012 );
 
 }
 
@@ -11,13 +11,13 @@ h1 {
     text-align: center;
     font-size: 5rem;
     letter-spacing: 1.3rem;
-    text-shadow: 2px 1px 2px #5b1d00;
+    text-shadow: 2px 1px 1px #5b1d00;
 }
 
 h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    text-shadow: 2px 1px 2px saddlebrown;
+    text-shadow: 2px 1px 1px rgb(99, 49, 14);
 }
 
 figure {
@@ -38,7 +38,7 @@ a:hover {
     height: 10rem;
     margin: .50rem;
     display: inline-flex;
-
+    box-shadow: 7px 5px 10px #7A1D00;
 }
 
 #breakfast {
@@ -71,10 +71,11 @@ figcaption {
     font-size: 1rem;
     position: absolute;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 10.2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color: #CB4101;
+    font-weight:bold;
+    color: #7A1D00; /*former color was #CB4101 */
 
 }
 
@@ -100,6 +101,7 @@ a[href*='category'] {
     color: #bc3c00;
     text-shadow: .5px .25px 1.5px #000000;
     background-color: #ff8e16;
+    box-shadow: 5px 5px 10px #7A1D00;
 }
 
 #banner {
