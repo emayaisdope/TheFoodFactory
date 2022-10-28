@@ -1,11 +1,11 @@
-
 html {
     background-image: linear-gradient(#facd9d , #ff9e36)
+
 }
- 
- 
+
+
 h1 {
-   
+
     font-family: Sacramento;
     color: #EC5B13;
     text-align: center;
@@ -17,23 +17,23 @@ figure {
     display:inline-flex;
     border: .75px inset #FF7E05;
     border-radius: 3px;
-   
-   
+
+
 }
- 
+
 a:hover {
     opacity: .70;
 }
- 
- 
+
+
 .food-pic {
     width: auto;
     height: 10rem;
     margin: .50rem;
     display: inline-flex;
-       
+
 }
- 
+
 #breakfast {
     display:flex;
     justify-content: center;
@@ -41,7 +41,7 @@ a:hover {
     overflow: hidden;
     margin-top: -2.5rem;
 }
- 
+
 #lunch {
     display:flex;
     justify-content: center;
@@ -49,7 +49,7 @@ a:hover {
     padding-top: 3rem;
     margin-top: -5.5rem;
 }
- 
+
 #dinner {
     display:flex;
     justify-content: center;
@@ -57,7 +57,7 @@ a:hover {
     padding-top: 3rem;
     margin-top: -5.5rem;
 }
- 
+
 figcaption {
     height:10rem;
     width:6.8rem;
@@ -68,16 +68,16 @@ figcaption {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     color: #CB4101;
- 
+
 }
- 
+
 a[href*='category'] {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .9rem;
- 
+
 }
- 
+
 button {
     border-radius: 3px;
     border: 1px outset #CB4101;
@@ -97,6 +97,7 @@ button {
 #banner {
     overflow: hidden;
     position: relative;
+
 }
 
 #banner figure {
@@ -149,10 +150,6 @@ button {
     margin: auto;
 }
 
-.tips img {
-    border-style: solid;
-    border-width: 5px;
-}
 .contact {
     display: flex;
     flex-direction: column;
@@ -160,7 +157,6 @@ button {
     align-items: space-around;
     margin: auto;
 }
-
 
 .food-pic2 {
     display: flex;
@@ -171,3 +167,66 @@ button {
     max-width: 30rem;
     max-height: 30rem;
 }
+/*KeeKee's CSS*/
+.topnav a {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+    background-color:slategrey;
+    color: whitesmoke;
+}
+
+.topnav a:active {
+    background-color: saddlebrown;
+    color: whitesmoke;
+}
+
+.about {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 3px 3px;
+}
+
+footer p{
+    position: absolute;
+    color:black;
+    width: 100%;
+
+}
+.share {
+    padding: 0px 0px 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .share a {
+    background: LightGrey;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: rgb(248, 143, 6);
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .share a:hover {
+    background: white;
+    border: 1px solid rgb(209, 85, 2);
+    color: rgb(7, 0, 6);
+  }
