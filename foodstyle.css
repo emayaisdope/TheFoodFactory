@@ -1,3 +1,4 @@
+
 html {
     background-image: linear-gradient(#facd9d , #ff9e36)
 
@@ -13,6 +14,13 @@ h1 {
     letter-spacing: 1.3rem;
     text-shadow: 2px 1px 2px #5b1d00;
 }
+
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 1px 2px saddlebrown;
+}
+
 figure {
     display:inline-flex;
     border: .75px inset #FF7E05;
@@ -71,14 +79,15 @@ figcaption {
 
 }
 
+
 a[href*='category'] {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .9rem;
 
 }
-
-button {
+ 
+.next {
     border-radius: 3px;
     border: 1px outset #CB4101;
     height: 10.1rem;
@@ -91,16 +100,13 @@ button {
     font-size: 1rem;
     color: #bc3c00;
     text-shadow: .5px .25px 1.5px #000000;
-    background-color: #ffa647;
+    background-color: #ff8e16;
 }
 
-
 #banner {
-    width:100%;
-    height: auto;
-    overflow:hidden;
-    position:relative;
-    display: block;
+    overflow: hidden;
+    position: relative;
+
 }
 
 #banner figure {
@@ -109,12 +115,10 @@ button {
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
-
 }
 #banner figure img {
     width: 20%;
     float: left;
-
 }
 
 @keyframes slider {
@@ -173,23 +177,89 @@ button {
     max-height: 30rem;
 }
 /*KeeKee's CSS*/
-.topnav a {
-    text-align: center;
-    padding: 15px 15px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+
+.topnav-centered {
+  background-color: saddlebrown;  
+  overflow: hidden;
+  justify-content: space-evenly;
+  width:auto;
+  margin: 0 auto;
+  position:relative;
+  border: 2px dotted black;
 }
 
-.topnav a:hover {
-    background-color:slategrey;
-    color: whitesmoke;
+.topnav-centered a {
+  float: none;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.topnav a:active {
-    background-color: saddlebrown;
-    color: whitesmoke;
+/*
+.dropdown {
+  float:left;
+  overflow: hidden;
+  position:relative;
+  display: inline-block;
 }
 
+ .dropbtn {
+
+  position: absolute;  
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {  
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: whitesmoke;
+}
+*/
+
+#featured {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 3rem;
+    margin-top: -5.5rem;
+}
 .about {
     text-align: center;
     padding: 10px 50px;
@@ -235,3 +305,5 @@ footer p{
     border: 1px solid rgb(209, 85, 2);
     color: rgb(7, 0, 6);
   }
+
+
