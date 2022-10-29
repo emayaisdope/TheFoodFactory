@@ -196,7 +196,7 @@ a[href*='category'] {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-weight:bold;
-    color: #7A1D00; /*former color was #CB4101 */
+    color: black; /*former color was #CB4101 */
 }
 
 /*KeeKee's CSS*/
