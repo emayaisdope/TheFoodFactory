@@ -21,6 +21,10 @@ h3 {
     text-shadow: 2px 1px 1px rgb(99, 49, 14);
 }
 
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 figure {
     display:inline-flex;
     border: .75px inset #FF7E05;
@@ -159,6 +163,20 @@ a[href*='category'] {
     justify-items: center;
     align-items: space-around;
     margin: auto;
+}
+
+.tips h1 {
+    color:#80280e;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+.tips h2 {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    font-size: 2.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px rgb(94, 9, 9);
 }
 
 .contact {
