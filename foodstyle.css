@@ -159,8 +159,8 @@ a[href*='category'] {
 
 .tips {
     display: flex;
-    flex-direction: column;
     justify-items: center;
+    flex-direction: column;
     align-items: space-around;
     margin: auto;
 }
@@ -182,14 +182,27 @@ a[href*='category'] {
     text-decoration: none;
 }
 .food-pic2 {
+    border: thin #c0c0c0 solid;
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: space-around;
+    flex-flow: column;
+    max-width: 500px;
+    max-height: auto;
     margin: auto;
-    max-width: 30rem;
-    max-height: 30rem;
 }
+
+.food-pic2 figcaption {
+    height:10rem;
+    width:6.8rem;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    padding-top: 10.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    color: #7A1D00; /*former color was #CB4101 */
+}
+
 /*KeeKee's CSS*/
 
 .topnav-centered {
