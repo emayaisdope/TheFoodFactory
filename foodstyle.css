@@ -14,7 +14,11 @@ h1 {
     letter-spacing: 1.3rem;
     text-shadow: 2px 1px 1px #5b1d00;
 }
-
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(99, 49, 14);
+}
 h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -91,7 +95,7 @@ a[href*='category'] {
     font-size: .9rem;
 
 }
- 
+
 .next {
     border-radius: 3px;
     border: 1px outset #CB4101;
@@ -125,6 +129,7 @@ a[href*='category'] {
 #banner figure img {
     width: 20%;
     float: left;
+
 }
 
 @keyframes slider {
@@ -159,8 +164,8 @@ a[href*='category'] {
 
 .tips {
     display: flex;
-    flex-direction: column;
     justify-items: center;
+    flex-direction: column;
     align-items: space-around;
     margin: auto;
 }
@@ -186,20 +191,36 @@ a[href*='category'] {
     align-items: space-around;
     margin: auto;
 }
-
-.food-pic2 {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: space-around;
-    margin: auto;
-    max-width: 30rem;
-    max-height: 30rem;
+.contact input, textarea {
+    background: LightGrey;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: rgb(248, 143, 6);
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
 }
+.food-pic2 {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    max-height: auto;
+    margin: auto;
+}
+
+.tips a{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    color: black; /*former color was #CB4101 */
+}
+
 /*KeeKee's CSS*/
 
 .topnav-centered {
-  background-color: saddlebrown;  
+  background-color: saddlebrown;
   overflow: hidden;
   justify-content: space-evenly;
   width:auto;
@@ -227,8 +248,8 @@ a[href*='category'] {
 
  .dropbtn {
 
-  position: absolute;  
-  font-size: 16px;  
+  position: absolute;
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -242,7 +263,7 @@ a[href*='category'] {
   background-color: red;
 }
 
-.dropdown-content {  
+.dropdown-content {
   display:none;
   position: absolute;
   background-color: #f9f9f9;
@@ -325,5 +346,3 @@ footer p{
     border: 1px solid rgb(209, 85, 2);
     color: rgb(7, 0, 6);
   }
-
-
