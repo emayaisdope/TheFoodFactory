@@ -125,6 +125,7 @@ a[href*='category'] {
 #banner figure img {
     width: 20%;
     float: left;
+
 }
 
 @keyframes slider {
@@ -190,13 +191,8 @@ a[href*='category'] {
     margin: auto;
 }
 
-.food-pic2 figcaption {
-    height:10rem;
-    width:6.8rem;
-    font-size: 1rem;
-    position: absolute;
-    text-align: center;
-    padding-top: 10.2rem;
+.tips a{
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-weight:bold;
